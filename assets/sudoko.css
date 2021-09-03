@@ -62,15 +62,15 @@ td input{
 
 td input:hover:enabled{
 
-    background-color:seagreen !important;
+    background-color:#67d0d8 !important;
 
 }
 
-/* td input:not([value=undefined]){
+td input[type=text]{
 
-    background-color: blue;
+    color: blue;
 
-} */
+}
 
 button{
 

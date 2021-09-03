@@ -250,24 +250,24 @@ function highlight(e){
     const boxElements=document.querySelectorAll('.'+CSS.escape(classes[2]));
     rowElements.forEach(ele => {
         if(ele.disabled==false){ 
-            ele.style.backgroundColor='#a2c523';
+            ele.style.backgroundColor='#0066ff';
             ele.style.color='#fff';
         }
     });
     colElements.forEach(ele => {
         if(ele.disabled==false){ 
-            ele.style.backgroundColor='#a2c523';
+            ele.style.backgroundColor='#0066ff';
             ele.style.color='#fff';
         }
     });
     boxElements.forEach(ele => {
         if(ele.disabled==false) {
-            ele.style.backgroundColor='#486b00';
+            ele.style.backgroundColor='#4d94ff';
             ele.style.color='#fff';
         }
     });
     if(e.target.disabled==false){
-        e.target.style.backgroundColor='#2e4600';
+        e.target.style.backgroundColor='#0052cc';
         e.target.style.color='#fff';
     }
 }
